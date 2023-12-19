@@ -1,7 +1,7 @@
 body {
 font-family: 'Roboto', sans-serif;
-width: 1440px;
-
+color: #434455;
+background-color: #FFFFFF;
 }
 
 a {
@@ -13,17 +13,15 @@ ul {
 }
 .header {
     
-height: 72px;
-flex-shrink: 0;
 
 background: #FFF;
-display: flex;
+
 
 }
 
 .header-logo-web {
-    width: 44px;
-    font-family: Raleway;
+    
+    font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
 font-size: 18px;
 font-style: normal;
@@ -31,18 +29,18 @@ font-weight: 700;
 line-height: 1.16;
 letter-spacing: 0.54px;
 text-transform: uppercase;
-padding-top: 25.5px;
+
 
 }
 .header-logo {
-    width: 71px;
-    font-family: Raleway;
+
+    font-family: 'Raleway', sans-serif;
     color:  #2E2F42;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.54px;
+line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .header-logo-web {
@@ -56,36 +54,58 @@ text-transform: uppercase;
 
 /*menu nav*/
 
-.menu-nav {
-    display: inline-flex;
-align-items: flex-start;
-gap: 40px;
+.studio-nav {
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
-letter-spacing: 0.32px;
-margin-left: 76px;
+letter-spacing: 0.02em;
+
 
 }
-.menu-nav a {
+.studio-nav a {
     color:  #2E2F42;
 }
-
-.address {
-    display: inline-flex;
-    margin-left: 332px;
-    gap: 40px;
-}
-.address a {
-    color:  #434455;
-    
-    font-family: Roboto;
+.portfolio-nav {
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.5; 
-    letter-spacing: 0.32px;
-    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+.portfolio-nav a {
+    color:  #2E2F42;
+}
+.contacts-nav {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
+.contacts-nav a {
+    color:  #2E2F42;
+}
+.menu-nav a:focus , .menu-nav a:hover {
+  color: #404bbf;  
+}
+
+.tel-email {
+    font-style: normal;
+}
+.email a {
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+.telephone a {
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.tel-email a:focus, .tel-email a:hover {
+    color: #404bbf;  
 }
 
 .solution {
@@ -94,32 +114,40 @@ margin-left: 76px;
     background:  #2E2F42;
     
 }
-.solution h1 {
-    width: 496px;
-    color:  #FFF;
+.title-name {
+
+    color: #ffffff;
 text-align: center;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
-letter-spacing: 1.12px;
-padding-left: 472px;
-padding-right: 472px;
-margin-top:  188px;
+letter-spacing: 0.02em;
 }
 
-button {
+.btn-order {
     background:  #4D5AE5;
+    font-family: 'Roboto', sans-serif;
     border: none;
     color: #FFF;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border-radius: 4px;
-    
-    margin-left: 636px;
-    margin-right: 635px;
-    cursor: pointer;
-    margin-bottom: 188px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 font-weight: 500;
+cursor: pointer;
+}
+
+.btn-order:focus , .btn-order:hover {
+    background-color: #404BBF;
+} 
+.advantages {
+width: 1128px;
+height: 104px;
+flex-shrink: 0;
+}
+.advantages h3, p {
+    
+
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
 }
