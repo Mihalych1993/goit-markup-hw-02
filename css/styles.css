@@ -45,8 +45,6 @@ text-transform: uppercase;
 }
 
 
-/*menu nav*/
-
 .studio-nav {
 font-size: 16px;
 font-weight: 500;
@@ -97,13 +95,12 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.tel-email a:focus, .tel-email a:hover {
+.tel-email a:focus, 
+.tel-email a:hover {
     color: #404bbf;  
 }
 
 .solution {
-    height: 600px;
-    padding-top: 24px;
     background:  #2E2F42;
     
 }
@@ -145,5 +142,5 @@ cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
+
 }
