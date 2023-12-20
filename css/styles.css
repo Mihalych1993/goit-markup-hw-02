@@ -47,9 +47,13 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-
-
 }
+
+.studio-nav a:focus , 
+.studio-nav a:hover {
+    color: #404bbf;  
+  }
+
 .studio-nav a {
     color:  #2E2F42;
 }
@@ -62,6 +66,10 @@ letter-spacing: 0.02em;
 .portfolio-nav a {
     color:  #2E2F42;
 }
+.portfolio-nav a:focus , 
+.portfolio-nav a:hover {
+    color: #404bbf;  
+  }
 .contacts-nav {
     font-size: 16px;
     font-weight: 500;
@@ -71,9 +79,11 @@ letter-spacing: 0.02em;
 .contacts-nav a {
     color:  #2E2F42;
 }
-.menu-nav a:focus , .menu-nav a:hover {
-  color: #404bbf;  
-}
+.contacts-nav a:focus , 
+.contacts-nav a:hover {
+    color: #404bbf;  
+  }
+
 
 .tel-email {
     font-style: normal;
@@ -139,5 +149,42 @@ cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
 
+.our-team {
+    background-color: #F4F4FD;
+}
+.name-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.team-list {
+    background-color: #FFFFFF;
+}
+
+
+
+.footer {
+    background-color: #2e2f42;
+}
+.footer-logo-web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footer-logo {
+    color: #f4f4fd;
+}
+.footer-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
