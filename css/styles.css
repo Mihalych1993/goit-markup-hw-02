@@ -42,43 +42,41 @@ text-transform: uppercase;
 }
 
 
-.studio-nav {
+.studio-nav a {
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
+color:  #2E2F42;
 }
 
 .studio-nav a:focus , 
 .studio-nav a:hover {
     color: #404bbf;  
-  }
-
-.studio-nav a {
-    color:  #2E2F42;
+    
 }
-.portfolio-nav {
+
+.portfolio-nav a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-}
-.portfolio-nav a {
+
     color:  #2E2F42;
 }
+
 .portfolio-nav a:focus , 
 .portfolio-nav a:hover {
     color: #404bbf;  
   }
-.contacts-nav {
+.contacts-nav a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-}
-.contacts-nav a {
     color:  #2E2F42;
 }
+
 .contacts-nav a:focus , 
 .contacts-nav a:hover {
     color: #404bbf;  
@@ -151,8 +149,9 @@ cursor: pointer;
     color: #434455;
 }
 
-.team-list {
-    background-color: #F4F4FD;
+
+.our-team {
+    background-color: #F4F4FD
 }
 .name-team {
     font-size: 36px;
