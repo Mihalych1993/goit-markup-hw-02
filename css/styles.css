@@ -131,16 +131,17 @@ cursor: pointer;
 
 .btn-order:focus , .btn-order:hover {
     background-color: #404BBF;
-} 
-.advantages {
-width: 1128px;
-height: 104px;
-flex-shrink: 0;
 }
-.advantages h3, p {
-    
+.name-adv {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
-flex-direction: column;
-align-items: flex-start;
-gap: 8px;
+.text-adv {
+    font-size: 16px
+    line-height: 1.5;
+    
 }
