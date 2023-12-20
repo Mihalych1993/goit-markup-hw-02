@@ -26,8 +26,8 @@ background: #FFF;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.54px;
+line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 
 
@@ -43,14 +43,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.header-logo-web {
 
-    height: 24px;
-    align-items: center;
-    flex-shrink: 0;
-    padding-left: 156px;
-
-}
 
 /*menu nav*/
 
